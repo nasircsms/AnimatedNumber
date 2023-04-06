@@ -5,7 +5,7 @@ import SwiftUI
 //---------------------------------------------------------------------------------
 // AnimatedNumber
 //---------------------------------------------------------------------------------
-@available(iOS 14.0, OSX 11.0, *)
+@available(iOS 14.0, OSX 11.0, tvOS 14.0, *)
 public struct AnimatedNumber: View {
     @State private var destinationValue: Double
     private let duration: Double
@@ -40,7 +40,7 @@ public struct AnimatedNumber: View {
 //---------------------------------------------------------------------------------
 // AnimatedNumberModifier
 //---------------------------------------------------------------------------------
-@available(iOS 14.0, OSX 11.0, *)
+@available(iOS 14.0, OSX 11.0, tvOS 14.0, *)
 //@available(OSX 11.0, unavailable)
 fileprivate struct AnimatedNumberModifier: AnimatableModifier {
     private var animationPercentage: Double
